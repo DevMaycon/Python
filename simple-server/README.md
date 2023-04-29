@@ -5,11 +5,17 @@
     BasicServer.py
 
     * Server / Socket 
-        - start server; -- > OK
+        - start server; --> OK
         - intercept bytes of the client; --> OK 
 
     * Server / Functions
 
-        - intercept bytes/messages --> OK
-            \_ encrypt all messages --> OK
-        
+        - intercept bytes/messages ;--> OK
+            \_ encrypt all; messages --> OK
+    
+    Client.py
+
+    * Message Handler
+
+        - Send Message; -->
+        - Receive And Decrypt; --> OK
