@@ -2,13 +2,11 @@
 
 # Simple Server Test
 
-    StartServer.py
+    BasicServer.py
 
     * Server / Socket 
         - start server; -- > OK
         - intercept bytes of the client; --> OK 
-        
-    ServerFunctions.py
 
     * Server / Functions
 
