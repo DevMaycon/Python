@@ -2,7 +2,7 @@
 
 # Simple Server Test
 
-    BasicServer.py
+# BasicServer.py
 
     * Server / Socket 
         - start server; --> OK
@@ -13,7 +13,7 @@
         - intercept bytes/messages ;--> OK
             \_ encrypt all; messages --> OK
     
-    Client.py
+# Client.py
 
     * Message Handler
 
