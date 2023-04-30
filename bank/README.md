@@ -5,7 +5,7 @@
     
     Execute using
 
-``` Python:
+``` sh:
     chmod +x bank_code_path
     ./bank_code_path
 ```
