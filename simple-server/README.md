@@ -17,5 +17,5 @@
 
     * Message Handler
 
-        - Send Message; -->
+        - Send Message; --> OK
         - Receive And Decrypt; --> OK
