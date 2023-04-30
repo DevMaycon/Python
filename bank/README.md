@@ -4,16 +4,25 @@
     DONT USE YOUR TRUTH CREDENTIALS.
     """
 
-# 0.1 version
+# 0.1 version !
     - Cleaned Directories
     - Project Begin
 
-# 0.2 version
+# 0.2 version !
     - Login created
     - Sign Up created
 
-# 0.3 version (Coming)
+# 0.2.1 Version !
+    - Security Increase
+    - Improved System
+    - Fixed bugs
+
+# 0.3 version !(Coming)!
     - Deposit/Withdraw Money
     - Credit Cards
-    - Stores with cashback
-    - 
+    - Buy Things
+    - CashBack
+
+# 0.5 Version !!New Update!! Coming Soon
+    - Renderization For the bank
+
