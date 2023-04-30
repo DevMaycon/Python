@@ -3,12 +3,13 @@
     !!THIS BANK IS ONLY FOR LEARN!!
     DONT USE YOUR TRUTH CREDENTIALS.
     
-    Execute using
+    
 
-``` sh:
+    ``` sh:
+    echo Execute using
     chmod +x bank_code_path
     ./bank_code_path
-```
+    ```
 
 # 0.1 version !
     - Cleaned Directories
