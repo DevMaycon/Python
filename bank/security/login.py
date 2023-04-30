@@ -1,4 +1,5 @@
 from security.client import *
+from time import sleep
 import json
 
 def msg(text: str):
@@ -29,6 +30,10 @@ class Login:
         password: str,
         phone: int
         ):
+        if name or email or password or phone == "":
+            print("!Error on create Account You used null informations!")
+            sleep(4)
+            return
         data_file = "security/data/data.json"
         with open(data_file, "r") as file:
             clients = json.load(file)
@@ -46,7 +51,7 @@ class Login:
         with open(data_file, "r") as data:
             clients = json.load(data)
             if phone in clients:
-                if username == clients[phone]["name"] and password == clients[phone]["password"]:
+                if username == clients[phone]["Name"] and password == clients[phone]["Password"]:
                     AccountBank(phone, clients[phone])
                     pass
             else:

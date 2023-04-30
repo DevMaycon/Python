@@ -1,1 +1,9 @@
-{}
+{
+    "12345678910": {
+        "Name": "test",
+        "Password": "test",
+        "Email": "test.test@testweb.com",
+        "Phone": "12345678910",
+        "money": 0
+    }
+}
