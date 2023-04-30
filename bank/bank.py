@@ -10,12 +10,18 @@ welcome = """
 _______________________
 |                     |
 |       Welcome       |
-|         Say         |
-|       < Bank >      |
+|         US          |
+|      < Bank >       |
 |_____________________|
 
 """
 print(welcome)
 while True:
-    text= input("[1] sign in\n[2] Create a Account\nSeja bem vindo, oque ira fazer? : ")
-    msg(text)
+    try:
+        text = input("[1] sign in\n[2] Create a Account\nSeja bem vindo, oque ira fazer? : ")
+        msg(text)
+    except:
+        print("\n\t\nUSBank Exited [+]")
+        system("rm -rf security/__pycache__/")
+        exit()
+        
