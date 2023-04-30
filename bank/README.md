@@ -1,8 +1,13 @@
 # script made by Dev.M
-    """
+
     !!THIS BANK IS ONLY FOR LEARN!!
     DONT USE YOUR TRUTH CREDENTIALS.
-    """
+    
+    Execute using
+
+    chmod +x bank_code_path
+    ./bank_code_path
+    
 
 # 0.1 version !
     - Cleaned Directories

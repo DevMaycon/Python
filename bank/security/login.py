@@ -30,10 +30,16 @@ class Login:
         password: str,
         phone: int
         ):
-        if name or email or password or phone == "":
-            print("!Error on create Account You used null informations!")
+        if "" in [name, email, phone, password]:
+            print("\n!Error on create Account You used null informations!\n")
             sleep(4)
+        elif len(phone) < 11:
+            print("\n Your Phone is Very Short For A Normal Phone\n")
             return
+        elif len(password) < 8:
+            print("\nyour password is Very Short ( It's recommended use minimun 8 characters )\n ")
+            return
+        
         data_file = "security/data/data.json"
         with open(data_file, "r") as file:
             clients = json.load(file)
@@ -56,5 +62,5 @@ class Login:
                     pass
             else:
                 print("Incorrect password or username!")
-
-
+                
+                

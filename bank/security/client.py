@@ -1,4 +1,3 @@
-import base64
 
 class AccountBank:
     phone: int
@@ -10,8 +9,8 @@ class AccountBank:
         self.name = accountData["Name"]
         self.password = accountData["Password"]
         while True:
-            text = input(f"Olá{self.name}, oque ira fazer? :\n")
+            text = input(f"Welcome {self.name}, What do you go make? : ".title())
             try:
                 getattr(self, text)
             except:
-                pass
+                print("Unknown Option")

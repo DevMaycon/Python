@@ -5,5 +5,12 @@
         "Email": "test.test@testweb.com",
         "Phone": "12345678910",
         "money": 0
+    },
+    "a": {
+        "Name": "a",
+        "Password": "a",
+        "Email": "a",
+        "Phone": "a",
+        "money": 0
     }
 }
