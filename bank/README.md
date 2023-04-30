@@ -4,11 +4,11 @@
     DONT USE YOUR TRUTH CREDENTIALS.
     
     Execute using
-    
-    ```
+
+``` Python:
     chmod +x bank_code_path
     ./bank_code_path
-    ```
+```
 
 # 0.1 version !
     - Cleaned Directories
