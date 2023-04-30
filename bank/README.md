@@ -7,7 +7,7 @@
 
     chmod +x bank_code_path
     ./bank_code_path
-    
+
 
 # 0.1 version !
     - Cleaned Directories
@@ -18,7 +18,7 @@
     - Sign Up created
 
 # 0.2.1 Version !
-    - Security Increase
+    - Security Increased
     - Improved System
     - Fixed bugs
 
