@@ -3,7 +3,6 @@
     !!THIS BANK IS ONLY FOR LEARN!!
     DONT USE YOUR TRUTH CREDENTIALS.
     
-    
 
     ``` sh:
     echo Execute using
