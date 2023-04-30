@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from security.login import Login, msg
 from os import system
 from time import sleep
