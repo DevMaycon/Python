@@ -21,7 +21,7 @@ def msg(text: str):
             username = input("Username: ")
             password = input("Password: ")
             
-            if len(password) < 8 and ["'", '"'] in password :
+            if len(password) < 8 and ["'", '"', "<", ">", ";", "{","}"] in password :
                 print("\nyour password is Very Short ( It's recommended use minimun 8 characters )\n ")
                 return
             
