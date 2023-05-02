@@ -26,7 +26,7 @@ chmod +x bank_code_path
 # 0.3 version !(Coming)!
     - Deposit/Withdraw Money
     - Credit Cards
-    - Buy Things
+    - Store
     - CashBack
 
 # 0.5 Version !!New Update!! Coming Soon

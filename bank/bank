@@ -19,11 +19,11 @@ _______________________
 """
 print(welcome)
 while True:
-    try:
-        text = input("[1] sign in\n[2] Create a Account\nSeja bem vindo, oque ira fazer? : ")
-        msg(text)
-    except:
-        print("\n\t\nUSBank Exited [+]")
-        system("rm -rf security/__pycache__/")
-        exit()
+    #try:
+    text = input("[1] sign in\n[2] Create a Account\nSeja bem vindo, oque ira fazer? : ")
+    msg(text)
+    #except:
+    #    print("\n\t\nUSBank Exited [+]")
+    #    system("rm -rf security/__pycache__/")
+    #    exit()
         
