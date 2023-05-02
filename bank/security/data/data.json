@@ -1,9 +1,0 @@
-{
-    "admin": {
-        "Name": "admin",
-        "Password": "admin",
-        "Email": "test.test@testweb.com",
-        "Phone": "12345678910",
-        "money": 99899
-    }
-}
