@@ -8,10 +8,27 @@ def msg(text: str):
             username = input("Username: ")
             password = input("Password: ")
             Login(phone=phone, username=username, password=password)
+            
         elif text == "2":
             phone = input("Phone: ")
+            if len(phone) < 11:
+                print("\n Your Phone is Very Short For A Normal Phone \n")
+                return
+            if not phone.isnumeric():
+                print("\n Your phone is not numeric. \n")
+                return
+            
             username = input("Username: ")
             password = input("Password: ")
+            
+            if len(password) < 8 and ["'", '"'] in password :
+                print("\nyour password is Very Short ( It's recommended use minimun 8 characters )\n ")
+                return
+            
+            if "" in [username, email, phone, password]:
+                print("\n!Error on create Account You used null informations!\n")
+                sleep(4)
+                
             email = input("Email: ")
             Login.create_account(phone=phone, name=username, email=email, password=password)
         else:
@@ -30,16 +47,6 @@ class Login:
         password: str,
         phone: int
         ):
-        if "" in [name, email, phone, password]:
-            print("\n!Error on create Account You used null informations!\n")
-            sleep(4)
-        elif len(phone) < 11:
-            print("\n Your Phone is Very Short For A Normal Phone\n")
-            return
-        elif len(password) < 8:
-            print("\nyour password is Very Short ( It's recommended use minimun 8 characters )\n ")
-            return
-        
         data_file = "security/data/data.json"
         with open(data_file, "r") as file:
             clients = json.load(file)
