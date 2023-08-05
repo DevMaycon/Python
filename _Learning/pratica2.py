@@ -21,6 +21,9 @@ print(f'Os quadrados de 1 ate {root1} são', squares(root1))
 print(f'Os quadrados de 1 ate {root2} são', squares(root2))
 print(f'Os quadrados de 1 ate {root3} são', squares(root3))
 
+
+# Criação de Rank Basico
+
 rank = [
     {'nome': 'joão',
         'pontos': 300
@@ -32,6 +35,8 @@ rank = [
         'pontos': 300
     }
     ]
-
+# Ordenando o rank
 ordened_rank = sorted(rank, key=lambda x: x['pontos'], reverse=True)
-print(ordened_rank)
+
+# Mostrando o rank
+print([f"{i+1}. -> {x['nome'].title()}" for i, x in enumerate(ordened_rank)])
