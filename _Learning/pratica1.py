@@ -15,7 +15,7 @@ def nota_media(medias: list):
     # dividida pela quantidade de notas fornecidas
     return round((sum(medias) / len(medias)), 1) if medias else "nota não foi imformada".title()
     
-# Teste a função com algumas notas
+# Testando a função
 
 notas_aluno1 = [8, 7, 9, 6, 8]
 notas_aluno2 = [6, 5, 7]
