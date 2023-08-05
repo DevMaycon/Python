@@ -11,32 +11,32 @@ Estudando Lambda
 """
 
 # Retornar numero de quadrados perfeitos
-squares = lambda x: [i**2 for i in range(1, x)] if x > 0 else "Error"
+squares = lambda x: [i**2 for i in range(1, x)] if x > 0 else "Numero Abaixo de 0. Não está permitido!"
 
 root1 = 10
 root2 = 3
 root3 = 0
 
-print(f'Os quadrados de 1 ate {root1} são', squares(root1))
-print(f'Os quadrados de 1 ate {root2} são', squares(root2))
-print(f'Os quadrados de 1 ate {root3} são', squares(root3))
+print(f'Os quadrados de 1 ate {root1} é', squares(root1))
+print(f'Os quadrados de 1 ate {root2} é', squares(root2))
+print(f'Os quadrados de 1 ate {root3} é', squares(root3))
 
 
 # Criação de Rank Basico
 
 rank = [
-    {'nome': 'joão',
-        'pontos': 300
+    {'nome': 'zoão',
+        'xp': 600
     },
     {'nome': 'alice',
-        'pontos': 700
+        'xp': 700
     },
     {'nome': 'Pedro',
-        'pontos': 300
+        'xp': 1200
     }
     ]
 # Ordenando o rank
-ordened_rank = sorted(rank, key=lambda x: x['pontos'], reverse=True)
+ordened_rank = sorted(rank, key=lambda x:  (-(x['xp'] * 120), x['nome']))
 
 # Mostrando o rank
-print([f"{i+1}. -> {x['nome'].title()}" for i, x in enumerate(ordened_rank)])
+print([(int(x['pontos'] * 120)) for x in ordened_rank])
