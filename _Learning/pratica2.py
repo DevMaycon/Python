@@ -20,3 +20,18 @@ root3 = 0
 print(f'Os quadrados de 1 ate {root1} são', squares(root1))
 print(f'Os quadrados de 1 ate {root2} são', squares(root2))
 print(f'Os quadrados de 1 ate {root3} são', squares(root3))
+
+rank = [
+    {'nome': 'joão',
+        'pontos': 300
+    },
+    {'nome': 'alice',
+        'pontos': 700
+    },
+    {'nome': 'Pedro',
+        'pontos': 300
+    }
+    ]
+
+ordened_rank = sorted(rank, key=lambda x: x['pontos'], reverse=True)
+print(ordened_rank)
